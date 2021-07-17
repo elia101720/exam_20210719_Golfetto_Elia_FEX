@@ -1,0 +1,58 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+.custom-bg{
+    background: rgb(194,2,94);
+    background: linear-gradient(0deg, rgba(194,2,94,1) 62%, rgba(240,201,83,1) 91%);
+}
+
+.transparent-card{
+    background-color: transparent;
+    border: none;
+}
+
+.img-list{
+    width: 60px;
+}
+
+.center{
+    text-align: center;
+}
+
+.top-row{
+    padding: 1rem 0.5rem;
+}
+
+.img-rounded{
+    border-radius: 50%;
+    height: 40px;
+}
+
+.back-arrow{
+    font-size: 20px;
+}
+
+.menu-points{
+    font-size: 20px;
+}
+
+.custom-btmbar{
+    height: 3.5rem;
+    font-size: 1.5rem;
+}
+
+.custom-card-img{
+    width: 12rem;
+}
+
+.custom-floating-btn{
+    float: right;
+    position: fixed;
+    right: 0.5rem;
+    bottom: 4rem;
+    box-shadow: 0px 10px 26px 5px rgba(0,0,0,0.64);
+}
+
+body{
+    margin-bottom: 3.5rem;
+}
