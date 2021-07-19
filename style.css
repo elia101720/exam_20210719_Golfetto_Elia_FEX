@@ -1,14 +1,22 @@
+/* import the necessary Bootstrap files */
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+
 @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
 
 .custom-bg{
-    background: rgb(194,2,94);
-    background: linear-gradient(0deg, rgba(194,2,94,1) 62%, rgba(240,201,83,1) 91%);
+    background: rgb(26,17,1);
+    background: linear-gradient(0deg, rgba(26,17,1,1) 66%, rgba(160,109,48,1) 98%);
 }
 
 .transparent-card{
     background-color: transparent;
     border: none;
+}
+
+.list-card{
+    padding-left: 1.5rem;
 }
 
 .img-list{
@@ -26,6 +34,7 @@
 .img-rounded{
     border-radius: 50%;
     height: 40px;
+    border: 0.5px solid white;
 }
 
 .back-arrow{
@@ -43,14 +52,20 @@
 
 .custom-card-img{
     width: 12rem;
+    height: 10rem;
+    opacity: 0.7;
 }
 
 .custom-floating-btn{
     float: right;
     position: fixed;
-    right: 0.5rem;
+    right: 1rem;
     bottom: 4rem;
     box-shadow: 0px 10px 26px 5px rgba(0,0,0,0.64);
+}
+
+.custom-color{
+    color: red;
 }
 
 body{
